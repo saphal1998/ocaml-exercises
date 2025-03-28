@@ -1,3 +1,47 @@
 (test
- (name test_exercises)
+ (name test_decode_rle)
+ (libraries alcotest exercises))
+
+(test
+ (name test_last)
+ (libraries alcotest exercises))
+
+(test
+ (name test_last_two)
+ (libraries alcotest exercises))
+
+(test
+ (name test_at)
+ (libraries alcotest exercises))
+
+(test
+ (name test_modified_rle)
+ (libraries alcotest exercises))
+
+(test
+ (name test_run_length)
+ (libraries alcotest exercises))
+
+(test
+ (name test_pack)
+ (libraries alcotest exercises))
+
+(test
+ (name test_compress)
+ (libraries alcotest exercises))
+
+(test
+ (name test_flatten)
+ (libraries alcotest exercises))
+
+(test
+ (name test_palindrome)
+ (libraries alcotest exercises))
+
+(test
+ (name test_reverse)
+ (libraries alcotest exercises))
+
+(test
+ (name test_length)
  (libraries alcotest exercises))
