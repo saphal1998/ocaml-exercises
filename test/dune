@@ -15,6 +15,14 @@
  (libraries alcotest exercises))
 
 (test
+ (name test_replicate_elements_of_list_n_times)
+ (libraries alcotest exercises))
+
+(test
+ (name test_duplicate_elements_of_list)
+ (libraries alcotest exercises))
+
+(test
  (name test_modified_rle)
  (libraries alcotest exercises))
 
