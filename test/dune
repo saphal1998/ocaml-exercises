@@ -15,6 +15,18 @@
  (libraries alcotest exercises))
 
 (test
+ (name test_slice)
+ (libraries alcotest exercises))
+
+(test
+ (name test_split)
+ (libraries alcotest exercises))
+
+(test
+ (name test_drop_nth_element_of_list)
+ (libraries alcotest exercises))
+
+(test
  (name test_replicate_elements_of_list_n_times)
  (libraries alcotest exercises))
 
@@ -48,6 +60,14 @@
 
 (test
  (name test_reverse)
+ (libraries alcotest exercises))
+
+(test
+ (name test_remove_kth_element_of_list)
+ (libraries alcotest exercises))
+
+(test
+ (name test_rotate)
  (libraries alcotest exercises))
 
 (test
